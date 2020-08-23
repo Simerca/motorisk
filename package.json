@@ -5,10 +5,24 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "resources": "capacitor-resources -p android,ios && node scripts/resources.js"
   },
   "dependencies": {
+    "@capacitor/android": "^2.4.0",
+    "@capacitor/cli": "^2.4.0",
+    "@capacitor/core": "^2.4.0",
+    "@mapbox/mapbox-gl-geocoder": "^4.7.0",
+    "@mapbox/polyline": "^1.1.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^5.0.0-alpha1",
+    "capacitor-resources": "^2.0.3",
     "core-js": "^3.6.5",
+    "leaflet": "^1.6.0",
+    "mapbox-gl": "^1.12.0",
+    "material-components-web": "^7.0.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"

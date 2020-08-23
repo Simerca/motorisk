@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MotoRisk</string>
+    <string name="title_activity_main">MotoRisk</string>
+    <string name="package_name">motorisk.ayrton.com</string>
+    <string name="custom_url_scheme">motorisk.ayrton.com</string>
+</resources>
